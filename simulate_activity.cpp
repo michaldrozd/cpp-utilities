@@ -89,7 +89,7 @@ DWORD getProcessID()
 	{
 		while (Process32Next(snapshot, &entry) == TRUE)
 		{
-			if (_tcscmp(_T("Teams.exe"), entry.szExeFile) == 0)
+			if (_tcscmp(_T("MyApp.exe"), entry.szExeFile) == 0)
 			{
 				CloseHandle(snapshot);
 				return entry.th32ProcessID;

@@ -10,14 +10,28 @@ Code injection can be useful in a few legal activities, such as:
 
 In this repository you will find code injector for both Windows and Linux
 
-## `simulate_activity.cpp` - User activity simulator
+## `simulate_activity.cpp`
 C++ program simulates user activity (user input) for various programs, such as online chats or call applications.
 
-## `web_crawler.cpp` - Multi-threading web crawler
-C++ Web Crawler
+## `web_crawler.cpp`
+Multi-threading C++ Web Crawler
 
-## `mem_search_string.cpp` - Search for any string in process memory
-It will search for string, plain, utf-8 or unicode in memory of given process! 
+## `mem_search_string_linux.cpp`
+It will search for string, plain, utf-8 or unicode in memory of given process in Linux!
+
+## `mem_search_string_win.cpp`
+It will search for string, plain, utf-8 or unicode in memory of given process in Windows!
+
+## `multi_threaded_raw_http_requests_linux.c` 
+C program for Linux sending raw HTTP requests in each thread (number of threads = number of cores)
+
+## `neural_networks.c`
+Using neural networks in C
+
+## `cuda_benchmark_linux.c`
+Simple CUDA benchmark in C
+
+...and many other programs
 
 # Legal Disclaimer for Software Use
 The use of this software is subject to the laws and regulations of the country in which it is being used. The developer of this software is not responsible for any illegal or unauthorized use of the program. By using this software, you agree to use it in compliance with all applicable laws and regulations!
